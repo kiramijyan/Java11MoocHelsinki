@@ -1,7 +1,10 @@
-
 public class Sandbox {
 
     public static void main(String[] args) {
-        // Write your program here
+
+ for(int i = 0; i <5; i++){
+     System.out.println(i);
+ }
+
     }
 }

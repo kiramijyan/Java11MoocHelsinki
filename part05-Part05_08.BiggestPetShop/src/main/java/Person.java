@@ -18,8 +18,8 @@ public class Person {
     }
 
     @Override
-    public String toString() {
-        return this.nimi;
+    public String toString(){
+        return this.name + ", has a friend called " + this.pet.getName() + "(" + this.pet.getBreed() + ")";
     }
 
 }
