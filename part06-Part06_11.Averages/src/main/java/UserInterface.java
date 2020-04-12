@@ -43,6 +43,8 @@ public class UserInterface {
             System.out.print(grade + ": ");
             printsStars(stars);
             System.out.println("");
+            System.out.println("The average of points: " + register.averageOfPoints());
+            System.out.println("The average of grades: " + register.averageOfGrades());
 
             grade = grade - 1;
         }

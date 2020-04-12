@@ -16,4 +16,8 @@ public class SimpleDictionary {
     public void add(String word, String translation) {
         this.translations.put(word, translation);
     }
+    
+    public boolean contains(String word){
+        return this.translations.containsKey(word);
+    }
 }
